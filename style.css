@@ -1,0 +1,66 @@
+    
+    * {
+    box-sizing: border-box;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Lista de tareas par */
+    ul li {
+        cursor: pointer;
+        position: relative;
+        padding: 10px 8px 8px 20px;
+        background: lightgrey;
+        transition: 0.2s;
+    
+    }
+    
+    /* Lista de tareas impar */
+    ul li:nth-child(odd) {
+        background-color: rgb(51, 102, 168);
+        color: #fff;
+    }
+    
+   /* Lista de tareas puntero */
+    ul li:hover {
+        background-color: rgb(19, 50, 80);
+        color: #fff;
+    }
+    /* Tarea acabada*/
+    ul li.checked {
+        background: #000000;
+        color: #fff;
+        text-decoration: line-through;
+    }
+    
+    input {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        width: 75%;
+        padding: 10px;
+        float: left;
+        font-size: 16px;
+    }
+    
+    /*Añadir tarea. ver como implementar*/
+    .añadirBoton {
+        padding: 10.5px;
+        width: 25%;
+        background: #d9d9d9;
+        color: #555;
+        float: left;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 0;
+    }
+    
+    .añadirBoton:hover{
+        background-color: #bbb;
+    
+    }
