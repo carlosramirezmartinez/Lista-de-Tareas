@@ -29,6 +29,7 @@
         background-color: rgb(19, 50, 80);
         color: #fff;
     }
+    
     /* Tarea acabada*/
     ul li.checked {
         background: #000000;
@@ -46,6 +47,15 @@
         font-size: 16px;
     }
     
+    /* Cabecera lista*/
+    .header {
+        background-color: #5936f4;
+        padding: 40px 40px;
+        color: white;
+        
+    }
+      
+    
     /*Añadir tarea. ver como implementar*/
     .añadirBoton {
         padding: 10.5px;
@@ -61,6 +71,6 @@
     }
     
     .añadirBoton:hover{
-        background-color: #bbb;
+        background-color: #ffffff;
     
     }
