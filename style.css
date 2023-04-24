@@ -49,19 +49,20 @@
     
     /* Cabecera lista*/
     .header {
-        background-color: #5936f4;
-        padding: 40px 40px;
+        background-color: #08323d;
+        padding: 70px 40px;
         color: white;
         
     }
-      
+
+
     
     /*Añadir tarea. ver como implementar*/
     .añadirBoton {
-        padding: 10.5px;
-        width: 25%;
-        background: #d9d9d9;
-        color: #555;
+        padding: 9.3px;
+        width: 20%;
+        background: #b3b3b3;
+        color: #000000;
         float: left;
         text-align: center;
         font-size: 16px;
@@ -71,6 +72,6 @@
     }
     
     .añadirBoton:hover{
-        background-color: #ffffff;
-    
+        background-color: #000000;
+        color: #b3b3b3;
     }
